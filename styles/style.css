@@ -163,6 +163,10 @@ body {
     width: 100%;
   }
 
+  .presentation-name h1 {
+    width: 100%;
+  }
+
   .presentation-picture {
     width: 100%;
   }
@@ -241,7 +245,7 @@ body {
   border-radius: var(--tamanho-espacamento-medio);
   padding: 15px;
   width: 300px;
-  height: 400px;
+  min-height: 400px;
   margin: var(--tamanho-espacamento-medio) auto;
   padding: var(--tamanho-espacamento-medio-pequeno);
 }
@@ -413,6 +417,6 @@ button:hover .button-text {
   color: #fff;
 }
 
-.fechado{
+.fechado {
   display: none;
 }
